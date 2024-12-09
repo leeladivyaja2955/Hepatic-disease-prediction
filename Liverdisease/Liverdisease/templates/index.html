@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liver Disease Prediction</title>
+</head>
+<body>
+    <h1>Liver Disease Prediction Web </h1>
+    <form action="/predict" method="post">
+        <!-- Add form fields based on your input features -->       
+        <label for="Age">Age:</label>
+        <input type="text" name="Age" required><br>
+
+        <label for="Gender">Gender: </label>
+        <input type="text" name="Gender" required><br>
+
+        <label for="Alkaline Phosphotase (IU/L)">Alkaline Phosphotase (IU/L):</label>
+        <input type="text" name="Alkaline Phosphotase (IU/L)" required><br>
+
+        <label for="SGPT/ALT (U/L)">SGPT/ALT (U/L):</label>
+        <input type="text" name="SGPT/ALT (U/L)" required><br>
+
+        <label for="SGOT/AST (U/L)">SGOT/AST (U/L):</label>
+        <input type="text" name="SGOT/AST (U/L)" required><br>
+
+        <label for="Total Bilirubin (mg/dL)">Total Bilirubin (mg/dL):</label>
+        <input type="text" name="Total Bilirubin (mg/dL)" required><br>
+
+        <label for="Direct Bilirubin (mg/dL)">Direct Bilirubin (mg/dL):</label>
+        <input type="text" name="Direct Bilirubin (mg/dL)" required><br>
+
+        <label for="Albumin (g/dL)">Albumin (g/dL):</label>
+        <input type="text" name="Albumin (g/dL)" required><br>
+
+        <label for="Total Proteins (g/dL)">Total Proteins (g/dL):</label>
+        <input type="text" name="Total Proteins (g/dL)" required><br>
+
+        <label for="Liver Disease">Liver Disease:</label>
+        <input type="text" name="Liver Disease" required><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
+
+
